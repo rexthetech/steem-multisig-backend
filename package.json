@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://rexthetech@github.com/freelancemonkey/steem-multisig-backend.git"
+    "url": "git+https://github.com/rexthetech/steem-multisig-backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/freelancemonkey/steem-multisig-backend/issues"
+    "url": "https://github.com/rexthetech/steem-multisig-backend/issues"
   },
-  "homepage": "https://github.com/freelancemonkey/steem-multisig-backend#readme",
+  "homepage": "https://github.com/rexthetech/steem-multisig-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dsteem": "^0.11.3",
