@@ -1,0 +1,25 @@
+{
+  "name": "steem-multisig-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rexthetech@github.com/freelancemonkey/steem-multisig-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freelancemonkey/steem-multisig-backend/issues"
+  },
+  "homepage": "https://github.com/freelancemonkey/steem-multisig-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dsteem": "^0.11.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
