@@ -251,7 +251,7 @@ app.post('/addSig', async (req, res) => {
 
   // Signer is in active auth?
   const active = accountFromUser[0].active.account_auths;
-  const weightThreshold = accountFromUser[0].owner['weight_threshold'];
+  const weightThreshold = accountFromUser[0].active['weight_threshold'];
   console.log ("active: ", active);
   var found = false;
   var signerWeight = 0;
@@ -387,7 +387,7 @@ app.post('/partialTx', async (req, res) => {
   
   // Proposer is in active auth?
   const active = accountFromUser[0].active.account_auths;
-  const weightThreshold = accountFromUser[0].owner['weight_threshold'];
+  const weightThreshold = accountFromUser[0].active['weight_threshold'];
   console.log ("active: ", active);
   var found = false;
   var proposerWeight = 0;
